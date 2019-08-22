@@ -17,7 +17,9 @@ The working model involved redesigning the pre-existing code architecture and re
 
 In the final model, the Robot class prescribes the desired motion for the robot and initializes a Platform object. The Platform object consists of six Actuator instances. The physics based calculations occur at the actuator level. In order to achieve a visually fluid motion as the actuators move through a series of points, the speed of each actuator is controlled by a parabolic equation.
 
-Code is ab
+Video of Final Motion: https://www.youtube.com/watch?v=iQmkbgB0hc0
+
+Video of Motion Time Lapse: https://www.youtube.com/watch?v=SVgW7NmqUDE
 
 ## NEXT STEPS
 
